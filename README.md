@@ -17,8 +17,7 @@ Augment the dataset using techniques like rotation, flipping, and scaling to imp
 Apply data augmentation techniques such as rotation, flipping, scaling, and random cropping to increase the diversity of the training dataset and improve model robustness.
 
 ### Model Training: 
-Train the U-Net model using the augmented training dataset. Use techniques like transfer learning with pre-trained models for better performance.
-
+Train the U-Net model using the augmented training dataset.
 ### Model Evaluation: 
 Evaluate the trained model's performance using metrics such as Intersection over Union (IoU) and Mean Average Precision (mAP) on a validation dataset.
 
