@@ -1,7 +1,7 @@
-# Object-Detection-for-Self-Driving-Cars
+# Image-Segmentation-for-Self-Driving-Cars
 
 ## Overview
-This project focuses on object detection for self-driving cars using the U-Net architecture. The U-Net is a convolutional neural network designed for image segmentation tasks, making it suitable for identifying and localizing objects in real-time. The model is trained on a dataset of labeled images containing various objects relevant to autonomous driving, such as vehicles, pedestrians, and traffic signs. The goal is to develop a robust object detection system to enhance the safety and performance of self-driving cars.
+This project focuses on image segmentation for self-driving cars using the U-Net architecture. The U-Net is a convolutional neural network designed for image segmentation tasks, making it suitable for identifying and localizing objects in real-time. The model is trained on a dataset of labeled images containing various objects relevant to autonomous driving, such as vehicles, pedestrians, and traffic signs. The goal is to develop a robust object detection system to enhance the safety and performance of self-driving cars.
 
 ## Workflow
 
@@ -18,6 +18,7 @@ Apply data augmentation techniques such as rotation, flipping, scaling, and rand
 
 ### Model Training: 
 Train the U-Net model using the augmented training dataset.
+
 ### Model Evaluation: 
 Evaluate the trained model's performance using metrics such as Intersection over Union (IoU) and Mean Average Precision (mAP) on a validation dataset.
 
